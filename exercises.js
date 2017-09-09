@@ -148,8 +148,10 @@ console.log (checkDifference (difference));
  * This function will multiply the values stored in the sum and product variables.
  * Console.log your result.  
 */
-
-
+function checkProduct (){
+	return sum * product;
+}
+console.log ("checkProduct:" + checkProduct());
 
 /*
  * #9
